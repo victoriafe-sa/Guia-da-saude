@@ -1,7 +1,34 @@
 .img-banner {
-   
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     background-color: #44b1fd;
+    margin-right: -50px;
+}
 
+#conteiner{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#container-text{
+    
+    margin-left: 25px;
+    margin-right: 100px;
+}
+#container-texte{
+    margin-right: 25px;
+    margin-left: 100px;
+}
+#container-img img{
+    width: 350px;
+    height: auto;
+}
+
+#container-img2 img{
+    width: 350px;
+    height: auto;
+    
 }
