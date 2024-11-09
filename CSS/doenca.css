@@ -1,7 +1,87 @@
-.banner-d{
-    background-image: url('../img/banner-d.jpg');
+.banner-d {
     padding: 55px;
     text-align: center;
-    color: #23A5D9;
+    color: #157ac3;
     margin-top: 15px;
+    font-size: 35px;
+    background-image: url(../img/banner-d.png);
+}
+.banner-d h2{
+    color: black;
+    font-size: 18px;
+}
+
+#card-regiao {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-doenca {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin: 50px;
+    background-color: rgba(248, 245, 245, 0.636);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+#card-doenca:hover {
+    padding: 30px;
+    transition: 1s;
+    h3{
+        font-size: 24px;
+        transition: 1s;
+    }
+}
+
+#card-doenca h3 {
+    text-align: center;
+    transition: 1s;
+}
+
+#card-doenca a {
+    text-decoration: none;
+    color: black;
+    background-color: #23A5D9;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+
+#card-doenca a:hover {
+    background-color: #45BFA9;
+    transition: 1s;
+}
+
+#link-mais {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.separator h1{
+    font-size: 26px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #801313;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
 }
