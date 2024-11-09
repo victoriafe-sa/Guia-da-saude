@@ -37,6 +37,7 @@ nav {
 
 #guia {
     color: #45BFA9;
+    margin-left: 50px;
 }
 
 .nav-links {
@@ -79,4 +80,5 @@ footer{
     background-color: #45BFA9;
     text-align: center;
     padding: 2rem 0;
+    margin-top: 40px;
 }

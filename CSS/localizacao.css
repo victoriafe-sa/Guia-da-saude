@@ -1,0 +1,70 @@
+.hosp-card {
+    display: flex;
+    justify-content: center;
+
+}
+
+#card {
+    width: 500px;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+#card:hover {
+    width: 550px;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+}
+#card img {
+    width: 250px;
+    height: auto;
+    transition: 1s;
+}
+
+#card img:hover{
+    width: 300px;
+    height: auto;
+    transition: 1s;
+}
+
+#card h3 {
+    color: #000000;
+}
+
+
+.local-titulo {
+    text-align: center;
+    color: #455bbf;
+    font-size: 30px;
+}
+
+#card a {
+    color: #000000;
+    transition: 0.5s;
+}
+
+#card a:hover {
+    color: #455bbf;
+}
+
+.mapa {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+}
