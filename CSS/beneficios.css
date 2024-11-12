@@ -1,0 +1,33 @@
+/* CONFIGURAÇÃO DE TITULO */
+.p1 {
+  color: #1db998;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 60px;
+}
+
+
+/* CONFIGURAÇÃO DE TABELA*/
+.tabela {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+
+}
+
+/* CONFIGURAÇÃO DO TITULO TABELA */
+.tabelatitulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(250, 244, 244);
+  margin: 30px;
+
+
+}
+
+/* CONFIGURAÇÃO DO CONTEUDO TABELA */
+.tabela-texto {
+  color: black;
+  text-align: left;
+  vertical-align: baseline
+}
