@@ -1,33 +1,43 @@
-/* CONFIGURAÇÃO DE TITULO */
+.beneficio{
+  margin-top: 150px;
+}
+
+main {
+  margin: 100px;
+}
+
 .p1 {
-  color: #1db998;
   text-align: center;
-  font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
-  margin: 60px;
+  color: #455bbf;
+  font-size: 30px;
 }
 
-
-/* CONFIGURAÇÃO DE TABELA*/
-.tabela {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: auto;
-
+#beneficios-content {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* CONFIGURAÇÃO DO TITULO TABELA */
-.tabelatitulo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  color: rgb(250, 244, 244);
-  margin: 30px;
-
-
+#titulo{
+  text-align: center;
 }
 
-/* CONFIGURAÇÃO DO CONTEUDO TABELA */
-.tabela-texto {
-  color: black;
-  text-align: left;
-  vertical-align: baseline
+#text-ben{
+  text-align: justify;
+  font-size: 18px;
+}
+
+#beneficio-img img {
+  width: 125%;
+  height: auto;
+}
+
+#beneficio-img {
+  margin-right: 50px;
+}
+
+#beneficio-text {
+  font-size: 22px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-right: 75px;
 }
