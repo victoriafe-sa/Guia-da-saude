@@ -1,0 +1,69 @@
+.title-page{
+    text-align: center;
+    color: #455bbf;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.content-principal{
+    margin: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -50px;
+}
+
+#content-img img{
+    width: 400px;
+    height: auto;
+}
+
+#content-text{
+    margin: 80px;
+    font-size: 18px;
+}
+
+.content-app{
+    margin: 50px;
+}
+#app{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.content-app h3{
+    margin-bottom: 30px;
+    color: #142369;
+    text-align: center;
+}
+.content-app h2{
+    text-align: center;
+    color: #105550;
+}
+
+#app img{
+    width: 20%;
+    height: auto;
+}
+
+#app-use h3{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#li-list li{
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 18px;
+}

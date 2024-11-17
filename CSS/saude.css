@@ -1,158 +1,85 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-header {
-    width: 100%;
-    font-size: 15px;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-
-.img-logo img {
-    width: 20%;
-    height: auto;
-    margin-right: -30px;
-}
-
-.nome-logo {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -350px;
-}
-
-#guia {
-    color: #45BFA9;
-}
-
-#saude {
-    color: #2896D9;
-}
-
-.nome-logo h2 {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-    margin-left: auto;
-}
-
-#h2-02 h2 {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav-links li {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    transition: 1s;
-    padding: 10px;
-}
-.nav-links li:hover { 
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
-    text-decoration: none;
-    background-color: #45BFA9;
-    border-radius: 15px;
-    padding: 10px;
-    transition: 1s;
-}
-
-#li-fim{
-    margin-right: 25px;
-}
-
-footer{
-    background-color: #45BFA9;
-    text-align: center;
-    padding: 2rem 0;
-}
-.h1{
+.h1 {
     text-align: center
 }
-#margem{
+
+#margem {
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 20px;
 }
-.h2{
+
+.h2 {
     text-align: center;
 }
-.td{
+
+.td {
     padding: 30px;
     text-align: center;
     font-weight: bold;
     background-color: #dddddd;
 }
+
 .separator {
     display: flex;
     align-items: center;
     text-align: center;
-  }
-  
-  .separator::before,
-  .separator::after {
+}
+
+.separator::before,
+.separator::after {
     content: '';
     flex: 1;
     border-bottom: 1px solid #c5c5c5;
-  }
-  
-  .separator:not(:empty)::before {
+}
+
+.separator:not(:empty)::before {
     margin-right: .25em;
-  }
-  
-  .separator:not(:empty)::after {
+}
+
+.separator:not(:empty)::after {
     margin-left: .25em;
-  }
-  #container {
+}
+
+#container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
-  }
-  
-  #container > div {
+}
+
+#container>div {
     width: 50%;
-  }
-  #margem2{
+}
+
+#margem2 {
     margin-right: 150px;
 
-  }
-  #margem3{
+}
+
+#margem3 {
     margin-left: 150px;
     margin-right: 15px;
     margin-top: 20px;
-  }
-  .box {
-    background-color: #f5f5f5; /* Cor de fundo do bloco */
+}
+
+.box {
+    background-color: #f5f5f5;
+    /* Cor de fundo do bloco */
     padding: 20px;
-    border-left: 5px solid #cccccc; /* Barra lateral */
+    border-left: 5px solid #cccccc;
+    /* Barra lateral */
     color: #333;
     font-size: 16px;
     line-height: 1.6;
     margin: 20px 0;
-  }
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #c5c5c5;
+}
