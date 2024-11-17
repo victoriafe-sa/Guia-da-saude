@@ -83,3 +83,10 @@ td {
     text-align: left;
     border-bottom: 1px solid #c5c5c5;
 }
+
+.title-page{
+    text-align: center;
+    color: #455bbf;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
