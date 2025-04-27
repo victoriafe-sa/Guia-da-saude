@@ -9,7 +9,7 @@ O **Guia da Saúde** é um site informativo sobre saúde pública, criado como p
 ## 🛠 Tecnologias Utilizadas
 
 - HTML5
-- CSS3 ([VictoriaMetrics: fast, cost-effective monitoring solution and ... - GitHub](https://github.com/VictoriaMetrics/VictoriaMetrics?utm_source=chatgpt.com))
+- CSS3
 
 ## 📁 Estrutura do Projeto
 
