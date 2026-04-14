@@ -1,72 +1,84 @@
 .banner-d {
     padding: 55px;
     text-align: center;
-    color: #157ac3;
+    color: #fff;
     margin-top: 15px;
     font-size: 35px;
-    background-image: url(../img/banner-d.png);
+    background: linear-gradient(rgba(35, 165, 217, 0.8), rgba(69, 191, 169, 0.8)), url(../img/banner-d.png) center/cover;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-.banner-d h2{
-    color: black;
-    font-size: 18px;
+
+.banner-d h2 {
+    color: #f0fdfa;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
 }
 
 #card-regiao {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 5%;
 }
 
 #card-doenca {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
     width: 100%;
-    max-width: 700px;
-    margin: 50px;
-    background-color: rgba(248, 245, 245, 0.636);
-    padding: 20px;
+    max-width: 450px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    transition: 1s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #card-doenca:hover {
-    padding: 30px;
-    transition: 1s;
-    h3{
-        font-size: 24px;
-        transition: 1s;
-    }
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 #card-doenca h3 {
     text-align: center;
-    transition: 1s;
+    color: #2C8C7A;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+#card-doenca:hover h3 {
+    color: #1F92BF;
+}
+
+#card-doenca p {
+    line-height: 1.7;
+    color: #555;
+    text-align: justify;
+    flex-grow: 1;
+    margin-bottom: 25px;
+}
+
+.link-doenca {
+   display: flex;
+   justify-content: center;
+   margin-top: auto;
 }
 
 #card-doenca a {
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: #23A5D9;
-    border-radius: 10px;
-    padding: 10px;
-    transition: 1s;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
 }
 
 #card-doenca a:hover {
     background-color: #45BFA9;
-    transition: 1s;
+    transform: scale(1.05);
 }
-
-#link-mais {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-}
-
-
-
-
-
-
-
-

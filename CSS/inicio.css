@@ -1,99 +1,134 @@
-.img-banner img{
+.img-banner img {
     margin-top: 20px; 
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-#conteiner{
+#conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    width: 85%;
+    max-width: 1100px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+#conteiner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+#container-text, #container-texte {
+    flex: 1;
+    padding: 50px;
+    text-align: justify;
+    line-height: 1.7;
+    color: #444;
+}
+
+#container-text h3, #container-texte h3 {
+    color: #45BFA9;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+#container-img, #container-img2, #container-img3 {
+    flex: 1;
     display: flex;
     justify-content: center;
-    margin: 50px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 30px;
 }
 
-#container-text{
-    text-align: justify;
-    margin-left: 85px;
-    margin-right: 100px;
-}
-#container-text p{
-    margin-top: 50px;
-}
-#container-texte{
-    text-align: justify;
-    margin-right: 85px;
-    margin-left: 100px;
-}
-#container-texte p{
-    margin-top: 50px;
-}
-#container-img img{
-    width: 350px;
+#container-img img, #container-img2 img, #container-img3 img {
+    width: 100%;
+    max-width: 380px;
     height: auto;
-    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
 }
-#container-img2 img{
-    margin-left: 80px;
-    width: 350px;
-    height: auto;
-    margin-bottom: 50px;
+
+#container-img img:hover, #container-img2 img:hover, #container-img3 img:hover {
+    transform: scale(1.03);
 }
-#container-img3 img{
-    width: 350px;
-    height: auto;
-    margin-bottom: 50px;
-    
-}
-form{
+form {
     align-items: center;
     justify-content: center;
     display: flex;
-    
-}
-#formulario{
-    text-align: center;
-    border: 2px solid rgb(37, 104, 187);
-    margin: 0 auto;
-    padding: 40px;
-    width: 50%;
-    margin-bottom: 25px;
-}
-#formulario h3{
-    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-#input-new{
-    background-color: rgba(168, 168, 168, 0.096);
-    border: 1px solid rgba(0, 0, 0, 0.341);
-    padding: 0.75rem;
-    border-radius: 5px;
-    width: 60%;
-}
-#button-new{
-    background-color: #367ced92;
-    padding: 0.75rem 1.5rem;
+#formulario {
+    text-align: center;
     border: none;
-    border-radius: 5px;
+    background: linear-gradient(135deg, #f0fdfa, #e6f7f4);
+    margin: 60px auto;
+    padding: 50px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(69, 191, 169, 0.15);
+}
+
+#formulario h3 {
+    margin-bottom: 30px;
+    color: #2b7a6c;
+    font-size: 1.5rem;
+}
+
+#input-new {
+    background-color: #ffffff;
+    border: 1px solid #c9ece6;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 60%;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+#input-new:focus {
+    box-shadow: 0 0 10px rgba(69, 191, 169, 0.3);
+}
+
+#button-new {
+    background-color: #45BFA9;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
     cursor: pointer;
-    margin: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#button-new:hover {
+    background-color: #2b7a6c;
+    transform: translateY(-2px);
 }
 
 @media (max-width: 900px) {
     #conteiner {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        width: 95%;
     }
     
     #container-text, #container-texte {
-        margin: 20px;
-    }
-    
-    #container-img img, #container-img2 img, #container-img3 img {
-        margin: 0 auto 20px;
+        padding: 30px;
     }
     
     #formulario {
-        width: 80%;
+        width: 85%;
+        padding: 30px;
+    }
+
+    #input-new {
+        width: 100%;
     }
 }
