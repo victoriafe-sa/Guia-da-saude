@@ -1,13 +1,8 @@
 main {
-  margin: 100px;
+  margin: 50px auto;
 }
 
-.title-page{
-  text-align: center;
-  color: #455bbf;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 50px;
-}
+
 
 #beneficios-content {
   display: flex;

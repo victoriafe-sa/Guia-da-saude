@@ -18,7 +18,8 @@
 
 #card-doenca {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     margin: 50px;
     background-color: rgba(248, 245, 245, 0.636);
     padding: 20px;
@@ -62,26 +63,10 @@
     margin-top: auto;
 }
 
-.separator h1{
-    font-size: 26px;
-}
-.separator {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 
-.separator::before,
-.separator::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid #801313;
-}
 
-.separator:not(:empty)::before {
-    margin-right: .25em;
-}
 
-.separator:not(:empty)::after {
-    margin-left: .25em;
-}
+
+
+
+

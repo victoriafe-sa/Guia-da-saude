@@ -1,0 +1,28 @@
+/* Global Styles */
+.title-page {
+    text-align: center;
+    color: #455bbf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.separator h1 {
+    font-size: 26px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #801313;
+}
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
